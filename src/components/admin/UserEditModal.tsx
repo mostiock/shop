@@ -145,7 +145,7 @@ export function UserEditModal({
               <div>
                 <span className="font-medium text-gray-600">Created:</span>
                 <span className="ml-2 text-gray-900">
-                  {new Date(user.createdAt).toLocaleDateString()}
+                  {user.createdAt ? user.createdAt ? new Date(user.createdAt).toLocaleDateString() : "Unknown" : "Unknown"}
                 </span>
               </div>
               <div>

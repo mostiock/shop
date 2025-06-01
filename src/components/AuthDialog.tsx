@@ -155,11 +155,6 @@ export function AuthDialog({
                 afterSignUpUrl="/"
                 signUpUrl="/"
                 redirectUrl="/"
-                signInCompleteCallback={handleSignInSuccess}
-                signUpCompleteCallback={handleSignUpSuccess}
-                signOutCallback={handleSignOutSuccess}
-                afterSignInCallback={handleSignInSuccess}
-                afterSignUpCallback={handleSignUpSuccess}
               />
             ) : (
               <SignUp
@@ -190,8 +185,6 @@ export function AuthDialog({
                 afterSignUpUrl="/"
                 signInUrl="/"
                 redirectUrl="/"
-                signUpCompleteCallback={handleSignUpSuccess}
-                afterSignUpCallback={handleSignUpSuccess}
               />
             )}
 

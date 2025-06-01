@@ -205,7 +205,7 @@ export default function ProfilePage() {
                   <span className="text-sm font-medium">Member since</span>
                 </div>
                 <span className="text-sm">
-                  {new Date(user.createdAt).toLocaleDateString()}
+                  {user.createdAt ? user.createdAt ? new Date(user.createdAt).toLocaleDateString() : "Unknown" : "Unknown"}
                 </span>
               </div>
               <div className="flex justify-between items-center py-2 border-b">
