@@ -1,6 +1,5 @@
-// Instructions: Create a Vercel configuration file for optimal deployment settings
-
 {
+  "name": "boles-smart-shop-wallet",
   "framework": "nextjs",
   "buildCommand": "next build",
   "outputDirectory": ".next",
